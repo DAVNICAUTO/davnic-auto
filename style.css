@@ -138,3 +138,63 @@ body {
       object-fit: contain;
       display: block;
 }
+/*Adaus adaptare dispozitiv-inceput*/
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 40px 20px;
+    margin: 20px;
+  }
+
+  .header-nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .containerImg {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 8px;
+  }
+
+  .image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 10px 20px;
+  }
+
+  .header-LogoTitlu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .site-titlul {
+    font-size: 20px;
+  }
+
+  .header-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-content {
+    padding: 20px 10px;
+    margin: 10px;
+  }
+
+  .containerImg {
+    grid-template-columns: 1fr;
+  }
+
+  .image {
+    height: 200px;
+  }
+}
+/*Adaus adaptare dispozitiv-sfarsit*/
