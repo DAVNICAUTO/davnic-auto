@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   color: #800000;
-  background-image: url('../Imagini/mijloaceleDeSemnalizare.jpg');
+  background-image: url('mijloaceleDeSemnalizare.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
