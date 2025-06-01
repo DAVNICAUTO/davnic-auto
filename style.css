@@ -1,0 +1,140 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #800000;
+  background-image: url('../Imagini/mijloaceleDeSemnalizare.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+
+  font-size: 20px;       
+  font-weight: 600;     
+  line-height: 1.6;  
+}
+
+/* LOGO + TITLU */
+.header-LogoTitlu {
+  display: flex;
+  align-items:center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  align-items: center;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 6px; 
+
+}
+
+.fundal{
+  display: flex;
+  flex-direction: column;  
+  align-items:center;
+  padding: 10% 20px;
+  background-color: rgba(251, 251, 251, 0.7); /* fără blur, dar tot separă vizual */ 
+
+}
+
+/* HEADER SUS - PE LINIE */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-LogoTitlu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 6px;
+}
+
+.site-titlul {
+  font-size: 24px;
+  color: #8B0000;
+  margin: 0;
+}
+
+/* NAVIGAȚIE */
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #800000;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.header-nav a:hover {
+  background-color: #795fea;
+}
+
+/* MAIN CENTRAL */
+.main-content {
+  flex: 1;
+  padding: 60px;
+  margin: 40px auto;
+  max-width: 1000px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+/* FOOTER JOS */
+.subsol {
+  text-align: center;
+  padding: 5px;
+  z-index: 1000;
+  bottom: 10;
+  left: 0;
+  right: 0;
+}
+.containerImg{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   gap: 10px;
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+}
+.image {
+      width: 100%;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+.containerImg img{
+    max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      display: block;
+}
